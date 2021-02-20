@@ -6,12 +6,13 @@ import "../utils/animations.css"
 import "../utils/styles.css"
 
 import Head from "../components/head"
+import Home from "../components/Home/Home"
 
 const IndexPage = () => {
   return (
     <>
       <Head title="Home" />
-      <div>index</div>
+      <Home />
     </>
   )
 }
