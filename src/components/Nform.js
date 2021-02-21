@@ -28,7 +28,7 @@ class Nform extends Component {
         ...this.state,
       }),
     })
-      .then(() => navigate(form.getAttribute("action")))
+      .then(() => console.log("submitted"))
       .catch(error => alert(error))
   }
 
@@ -42,7 +42,6 @@ class Nform extends Component {
           action=""
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          onSubmit={this.handleSubmit}
         >
           <input type="hidden" name="form-name" value="contact" />
           <div hidden>
@@ -97,7 +96,11 @@ class Nform extends Component {
             </div>
           </div>
           <div className="field text-right mb-0">
-            <button className="btn btn--orange" type="submit">
+            <button
+              className="btn btn--orange"
+              type="button"
+              onClick={this.handleSubmit}
+            >
               Send Message
             </button>
           </div>
