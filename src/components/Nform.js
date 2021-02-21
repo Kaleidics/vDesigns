@@ -7,7 +7,7 @@ function encode(data) {
     .join("&")
 }
 
-export default class Nform extends Component {
+class Nform extends Component {
   constructor(props) {
     super(props)
     this.state = { isValidated: false }
@@ -106,3 +106,5 @@ export default class Nform extends Component {
     )
   }
 }
+
+export default Nform
