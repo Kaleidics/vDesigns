@@ -37,9 +37,9 @@ class Nform extends Component {
       <>
         <form
           className="n-form"
-          name="contact"
+          name="V Designs Contact"
           method="post"
-          action="/"
+          action=""
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={this.handleSubmit}
