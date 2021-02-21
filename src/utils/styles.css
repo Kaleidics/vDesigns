@@ -552,12 +552,13 @@ main {
 .input:focus,
 .textarea:focus {
   outline-color: #4379fb;
+  background: #fff;
 }
 
 .textarea {
   resize: none;
   height: 160px;
-  background: #f9f9fb;
+  background: rgba(241, 245, 252, 0.5);
 }
 
 /* Animation */
