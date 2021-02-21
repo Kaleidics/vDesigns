@@ -163,7 +163,7 @@ main {
   font-weight: 700;
   padding: 10px 16px;
   color: #3d3f56;
-  border-radius: 25px;
+  border-radius: 12px;
 }
 
 .title-secondary-heading {
@@ -214,9 +214,9 @@ main {
   text-decoration: none;
   padding: 8px 24px;
   border: 2px solid #fff;
-  border-radius: 3px;
   font-weight: 400;
-  border-radius: 25px;
+  border-radius: 12px;
+  outline-color: #3c6de1;
 }
 
 .btn--orange {
@@ -369,6 +369,10 @@ main {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .page-link {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
@@ -429,6 +433,10 @@ main {
   margin-bottom: auto;
 }
 
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
 .font-ax {
   color: #677380;
 }
@@ -456,13 +464,24 @@ main {
 
 .footer {
   width: 100%;
-  height: 500px;
+  min-height: 500px;
   background-color: #3c6de1;
   position: relative;
+  padding: 40px;
+}
+
+.footer-container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-background-container-right {
-  width: 100%;
+  width: 50%;
   height: 80%;
   position: absolute;
   background-image: url("../assets/images/footer_image.svg");
@@ -470,6 +489,75 @@ main {
   background-size: contain;
   background-repeat: no-repeat;
   top: -120px;
+  right: 0;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+  margin: 10px 0;
+  max-width: 400px;
+}
+
+.n-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px 32px;
+  box-shadow: 3px 5px 8px 6px rgba(71, 71, 71, 0.1);
+}
+
+.footer-title {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.control {
+  margin-top: 5px;
+}
+
+.label {
+  font-family: "Poppins", sans-serif;
+  color: #3c6de1;
+  font-size: 1.3rem;
+}
+
+.input,
+.textarea {
+  width: 100% !important;
+  border: 1px solid #e3e3ea;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  color: #373947;
+  outline-color: transparent;
+  padding: 10px 20px;
+  font-family: "Lato", sans-serif;
+}
+
+.input:focus,
+.textarea:focus {
+  outline-color: #4379fb;
+}
+
+.textarea {
+  resize: none;
+  height: 160px;
+  background: #f9f9fb;
 }
 
 /* Animation */
