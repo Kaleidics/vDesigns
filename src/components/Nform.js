@@ -55,7 +55,7 @@ class Nform extends Component {
             <label className="label" htmlFor={"name"}>
               Your Name
             </label>
-            <div className="control">
+            <div id="name-control" className="control">
               <input
                 className="input"
                 type={"text"}
@@ -70,7 +70,7 @@ class Nform extends Component {
             <label className="label" htmlFor={"email"}>
               Email
             </label>
-            <div className="control">
+            <div id="email-control" className="control">
               <input
                 className="input"
                 type={"email"}

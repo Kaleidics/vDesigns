@@ -163,7 +163,7 @@ main {
   font-weight: 700;
   padding: 10px 16px;
   color: #3d3f56;
-  border-radius: 12px;
+  border-radius: 5px;
 }
 
 .title-secondary-heading {
@@ -215,7 +215,7 @@ main {
   padding: 8px 24px;
   border: 2px solid #fff;
   font-weight: 400;
-  border-radius: 12px;
+  border-radius: 5px;
   outline-color: #3c6de1;
 }
 
@@ -508,9 +508,37 @@ main {
   align-items: center;
   max-width: 500px;
   background: #fff;
-  border-radius: 12px;
+  border-radius: 5px;
   padding: 24px 32px;
   box-shadow: 3px 5px 8px 6px rgba(71, 71, 71, 0.1);
+}
+
+.control {
+  position: relative;
+}
+
+#name-control::before {
+  background-image: url("../assets/images/user.png");
+  background-size: 24px 24px;
+  width: 24px;
+  height: 24px;
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  left: 10px;
+}
+
+#email-control::before {
+  background-image: url("../assets/images/mail.png");
+  background-size: 24px 24px;
+  width: 24px;
+  height: 24px;
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  left: 10px;
 }
 
 .footer-title {
@@ -534,7 +562,7 @@ main {
 .label {
   font-family: "Poppins", sans-serif;
   color: #3c6de1;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .input,
@@ -545,7 +573,6 @@ main {
   font-size: 1.3rem;
   color: #373947;
   outline-color: transparent;
-  padding: 10px 20px;
   font-family: "Lato", sans-serif;
 }
 
@@ -555,10 +582,15 @@ main {
   background: #fff;
 }
 
+.input {
+  padding: 10px 40px;
+}
+
 .textarea {
   resize: none;
   height: 160px;
   background: rgba(241, 245, 252, 0.5);
+  padding: 10px;
 }
 
 /* Animation */
