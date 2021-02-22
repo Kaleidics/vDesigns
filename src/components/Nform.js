@@ -97,7 +97,7 @@ class Nform extends Component {
             </div>
           </div>
           <div className="field text-right mb-0">
-            <button className="btn btn--orange" type="submit">
+            <button className="btn btn--blue" type="submit">
               Send Message
             </button>
           </div>
