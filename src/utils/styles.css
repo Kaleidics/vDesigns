@@ -526,7 +526,7 @@ main {
 }
 
 #name-control::before {
-  background-image: url("../assets/images/user.png");
+  background-image: url("../assets/images/user.svg");
   background-size: 24px 24px;
   width: 24px;
   height: 24px;
@@ -534,11 +534,11 @@ main {
   position: absolute;
   top: 50%;
   transform: translate(0%, -50%);
-  left: 10px;
+  left: 15px;
 }
 
 #email-control::before {
-  background-image: url("../assets/images/mail.png");
+  background-image: url("../assets/images/mail.svg");
   background-size: 24px 24px;
   width: 24px;
   height: 24px;
@@ -546,7 +546,7 @@ main {
   position: absolute;
   top: 50%;
   transform: translate(0%, -50%);
-  left: 10px;
+  left: 15px;
 }
 
 .footer-title {
@@ -584,7 +584,7 @@ main {
 }
 
 #link-email::before {
-  background-image: url("../assets/images/mailwhite.png");
+  background-image: url("../assets/images/mailwhite.svg");
   background-size: 24px 24px;
   width: 24px;
   height: 24px;
@@ -620,7 +620,7 @@ main {
 }
 
 #link-portfolio::before {
-  background-image: url("../assets/images/portfolio.png");
+  background-image: url("../assets/images/portfolio.svg");
   background-size: 24px 24px;
   width: 24px;
   height: 24px;
@@ -664,7 +664,7 @@ main {
 }
 
 .input {
-  padding: 10px 40px;
+  padding: 10px 45px;
 }
 
 .textarea {
