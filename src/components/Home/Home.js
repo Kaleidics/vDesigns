@@ -4,6 +4,7 @@ import Header from "./Header"
 import SectionOne from "./SectionOne"
 import SectionTwo from "./SectionTwo"
 import SectionThree from "./SectionThree"
+import SectionFour from "./SectionFour"
 import Footer from "../Layout/Footer"
 
 const Home = () => {
@@ -11,7 +12,8 @@ const Home = () => {
     <>
       <Header />
       <main class="main">
-        <SectionOne />
+        <SectionFour />
+        {/* <SectionOne /> */}
         <SectionTwo />
         <SectionThree />
       </main>

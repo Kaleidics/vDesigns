@@ -40,7 +40,7 @@ const SectionTwo = () => {
             to launch a website that fits your needs without breaking the bank.
           </p>
           <a class="page-link" href="#">
-            Learn more
+            Learn more<span class="arr-right">&raquo;</span>
           </a>
         </div>
         <div

@@ -92,12 +92,12 @@ class Nform extends Component {
                 onChange={this.handleChange}
                 id={"message"}
                 required={true}
-                placeholder="Message"
+                placeholder="Say hi"
               />
             </div>
           </div>
           <div className="field text-right mb-0">
-            <button className="btn btn--blue" type="submit">
+            <button className="btn btn--blue fs-12" type="submit">
               Send Message
             </button>
           </div>
