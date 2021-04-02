@@ -538,7 +538,7 @@ main {
 
 .contact {
   background: #3c6de1;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
