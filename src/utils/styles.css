@@ -109,6 +109,8 @@ main {
 
 .nav-icon-container {
   position: relative;
+  display: block;
+  text-decoration: none;
 }
 
 .nav-icon {
@@ -448,7 +450,7 @@ main {
 }
 
 .page-link:hover > .arr-right {
-  transition-delay: 0.1s;
+  transition-delay: 0.2s;
   width: initial;
   visibility: visible;
   animation: leftnRight 0.8s infinite;
@@ -534,15 +536,24 @@ main {
   bottom: 57px;
 }
 
-.footer {
+.contact {
+  background: #3c6de1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form {
   width: 100%;
+  max-width: 1920px;
   min-height: 500px;
   background-color: #3c6de1;
   position: relative;
   padding: 40px;
+  margin: auto;
 }
 
-.footer-container {
+.contact-form-container {
   position: relative;
   z-index: 10;
   width: 100%;
@@ -552,18 +563,18 @@ main {
   justify-content: space-between;
 }
 
-.footer-container-left {
+.contact-form-container-left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 10px;
 }
 
-.footer-background-container-right {
+.contact-form-background-container-right {
   width: 50%;
   height: 80%;
   position: absolute;
-  background-image: url("../assets/images/footer_image.svg");
+  background-image: url("../assets/images/park.svg");
   background-position: center right;
   background-size: contain;
   background-repeat: no-repeat;
@@ -571,9 +582,9 @@ main {
   right: 0;
 }
 
-.footer-text {
+.contact-form-text {
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-family: "Lato", sans-serif;
   margin: 10px 0;
   max-width: 400px;
@@ -621,22 +632,22 @@ main {
   left: 15px;
 }
 
-.footer-title {
+.contact-form-title {
   font-family: "Poppins", sans-serif;
   color: #fff;
   font-weight: 700;
-  font-size: 3.2rem;
+  font-size: 4rem;
   text-align: left;
   margin-bottom: 10px;
 }
 
-.footer-links {
+.contact-form-links {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
 }
 
-.footer-link {
+.contact-form-link {
   color: #fff;
   font-family: "Lato", sans-serif;
   font-size: 1.4rem;
@@ -651,7 +662,7 @@ main {
   max-width: 500px;
 }
 
-.footer-link:hover {
+.contact-form-link:hover {
   background: rgba(104, 148, 251, 0.8);
 }
 
@@ -715,7 +726,7 @@ main {
 .label {
   font-family: "Poppins", sans-serif;
   color: #3c6de1;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .input,
@@ -723,7 +734,7 @@ main {
   width: 100% !important;
   border: 1px solid #e3e3ea;
   border-radius: 6px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #373947;
   outline-color: transparent;
   font-family: "Lato", sans-serif;

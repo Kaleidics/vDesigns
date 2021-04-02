@@ -4,34 +4,12 @@ import { Link } from "gatsby"
 import mockup from "../../assets/images/mockup6.png"
 import testimage from "../../assets/images/sol_insr.jpg"
 
+import Navbar from "../navbar"
+
 function header(props) {
   return (
     <header className="header">
-      <nav className="nav">
-        <div className="nav-container">
-          <div className="nav-inner">
-            <div className="nav-icon-container">
-              <span className="nav-icon">V</span>
-            </div>
-          </div>
-          <div className="nav-toggle">
-            <span className="line line1"></span>
-            <span className="line line2"></span>
-            <span className="line line3"></span>
-          </div>
-          <div className="nav-desktop">
-            <Link className="nav-link mr-10" to="/services">
-              Services
-            </Link>
-            <Link className="nav-link mr-10" to="/portfolio">
-              Portfolio
-            </Link>
-            <Link className="nav-link btn--blue-outline" to="/contact">
-              Contact
-            </Link>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
       <div className="header-container">
         <div className="header-description">
           <h1 className="title-heading flex-block">
