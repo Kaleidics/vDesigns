@@ -207,7 +207,7 @@ main {
 
 .header-CTA {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .btn {
@@ -301,7 +301,7 @@ main {
 
 .header-image {
   width: 100%;
-  max-width: 360px;
+  max-width: 300px;
   border-radius: 4px;
 }
 
@@ -880,6 +880,10 @@ main {
 
   .header {
     max-height: 900px;
+  }
+
+  .header-CTA {
+    margin-top: 40px;
   }
 
   .header-image {
