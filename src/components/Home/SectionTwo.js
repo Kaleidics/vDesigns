@@ -34,7 +34,7 @@ const SectionTwo = () => {
               No minimum <span class="primary-color">contract</span>
             </span>
           </h2>
-          <p class="normal-text text-center center-to-left">
+          <p class="normal-text center-to-left">
             Sounds too good to be true? Well, we started with the singular
             mission to help bring small businesses online. We'll work with you
             to launch a website that fits your needs without breaking the bank.
@@ -44,7 +44,7 @@ const SectionTwo = () => {
           </a>
         </div>
         <div
-          class="flex-container-image mobile-hidden flex-start"
+          class="flex-container-image mobile-animate flex-start"
           ref={animationContainer4}
         ></div>
       </div>

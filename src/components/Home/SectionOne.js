@@ -49,7 +49,7 @@ const SectionOne = () => {
         <div class="flex-container align-center mw-320">
           <div class="card-icon" ref={animationContainer}></div>
           <p class="section-heading fs-16">Mobile First Design</p>
-          <p class="normal-text text-center">
+          <p class="normal-text">
             Mobile devices account for over 50% of all internet traffic. We
             develop the website with a mobile first approach to ensure it runs
             well on any device.
@@ -58,7 +58,7 @@ const SectionOne = () => {
         <div class="flex-container align-center mw-320">
           <div class="card-icon" ref={animationContainer2}></div>
           <p class="section-heading fs-16">Custom Development</p>
-          <p class="normal-text text-center">
+          <p class="normal-text">
             The truth is most websites you'll find are WordPress templates -
             repurposed, rebranded and sold to you at up to 10 times the cost.
             But not here.{" "}
@@ -70,7 +70,7 @@ const SectionOne = () => {
         <div class="flex-container align-center mw-320">
           <div class="card-icon" ref={animationContainer3}></div>
           <p class="section-heading fs-16">Web Services</p>
-          <p class="normal-text text-center">
+          <p class="normal-text">
             Web search rankings have gotten complicated over the years. We'll
             handle the hosting, SEO, and analytics to ensure the best search
             results for your website.

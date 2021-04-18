@@ -217,7 +217,7 @@ main {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   padding: 8px 24px;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   font-weight: 400;
   border-radius: 25px;
   outline-color: #3c6de1;
@@ -309,6 +309,7 @@ main {
   max-width: 1280px;
   margin: 40px auto;
   position: relative;
+  padding: 1rem 1.25rem;
 }
 
 .flex-container {
@@ -317,7 +318,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .justify-center {
@@ -348,9 +349,9 @@ main {
 .section-heading {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 3.6rem;
+  font-size: 2.7rem;
   color: #373947;
-  text-align: center;
+  text-align: left;
 }
 
 .vertical-text {
@@ -549,7 +550,7 @@ main {
   min-height: 500px;
   background-color: #3c6de1;
   position: relative;
-  padding: 40px;
+  padding: 60px 40px;
   margin: auto;
 }
 
@@ -570,6 +571,12 @@ main {
   margin-bottom: 10px;
 }
 
+@media screen and (min-width: 800px) {
+  .contact-form-container-left {
+    margin-right: 20px;
+  }
+}
+
 .contact-form-background-container-right {
   width: 50%;
   height: 80%;
@@ -578,7 +585,7 @@ main {
   background-position: center right;
   background-size: contain;
   background-repeat: no-repeat;
-  top: -120px;
+  top: -4vh;
   right: 0;
 }
 
@@ -757,6 +764,16 @@ main {
   padding: 10px;
 }
 
+#blob {
+  margin-top: -80px;
+}
+
+@media screen and (min-width: 900px) {
+  #blob {
+    margin-top: 0;
+  }
+}
+
 #blob::before {
   content: url("../assets/images/blob.svg");
   height: 200px;
@@ -864,6 +881,7 @@ main {
 
   .section-heading {
     text-align: left;
+    font-size: 3.6rem;
   }
 
   .mr-20-dx {
@@ -871,13 +889,23 @@ main {
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .mobile-hidden {
+.mobile-animate {
+  display: flex;
+  position: relative;
+  opacity: 1;
+  margin-top: -60px;
+}
+
+@media screen and (min-width: 900px) {
+  .mobile-animate {
     display: flex;
     position: relative;
     opacity: 1;
+    margin-top: 0;
   }
+}
 
+@media screen and (min-width: 1024px) {
   .header {
     max-height: 900px;
   }

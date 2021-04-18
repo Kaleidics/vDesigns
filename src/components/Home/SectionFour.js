@@ -34,11 +34,11 @@ const SectionFour = () => {
               Web <span class="primary-color">development</span>
             </span>
           </h2>
-          <p class="normal-text text-center center-to-left">
+          <p class="normal-text center-to-left">
             We specialize in custom web design and development for small
-            businesses. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We code from
-            scratch, from mobile to desktop - ensuring that no matter what
-            device your customers are on, they're getting the best experience.
+            businesses. We code from scratch, from mobile to desktop - ensuring
+            that no matter what device your customers are on, they're getting
+            the best experience.
           </p>
           <a class="page-link" href="#">
             Get in touch<span class="arr-right">&raquo;</span>
@@ -46,7 +46,7 @@ const SectionFour = () => {
         </div>
         <div
           id="blob"
-          class="flex-container-image mobile-hidden flex-start"
+          class="flex-container-image mobile-animate flex-start"
           ref={animationContainer5}
         ></div>
       </div>
