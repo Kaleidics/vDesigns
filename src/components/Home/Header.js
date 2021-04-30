@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import mockup from "../../assets/images/mockup6.png"
-import testimage from "../../assets/images/sol_insr.jpg"
+import testimage from "../../assets/images/test_image2.png"
 
 import Navbar from "../navbar"
 
