@@ -2,7 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 
 import mockup from "../../assets/images/mockup6.png"
-import testimage from "../../assets/images/test_image2.png"
+import testimage from "../../assets/images/mockfinal.png"
+import testimage2 from "../../assets/images/test_mock.png"
 
 import Navbar from "../navbar"
 
@@ -32,8 +33,11 @@ function header(props) {
         </div>
       </div>
       <div className="v-shape-container">
-        <div className="header-image-container">
+        <div className="header-image-container desktop-image">
           <img className="header-image" src={testimage} alt="iphone" />
+        </div>
+        <div className="header-image-container mobile-image">
+          <img className="header-image" src={testimage2} alt="iphone" />
         </div>
         <div className="v-shape-left">
           <div className="v-shape-1"></div>
