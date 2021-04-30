@@ -81,7 +81,7 @@ main {
 }
 
 .header {
-  /* background: #4379fb; */
+  background: #4379fb;
   position: relative;
   height: 665px;
   overflow: hidden;
@@ -187,7 +187,7 @@ main {
 }
 
 .title-heading {
-  color: #3d3f56;
+  color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   margin-bottom: 12px;
@@ -196,7 +196,7 @@ main {
 }
 
 .header-text {
-  color: #73808f;
+  color: #fff;
   font-size: 1.4rem;
   font-weight: 400;
   font-family: "Lato", sans-serif;

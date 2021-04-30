@@ -6,6 +6,8 @@ import testimage from "../../assets/images/test_image2.png"
 
 import Navbar from "../navbar"
 
+import Waves from "../waves/Waves"
+
 function header(props) {
   return (
     <header className="header">
@@ -31,18 +33,19 @@ function header(props) {
           </a>
         </div>
       </div>
+      <Waves />
       <div className="v-shape-container">
-        <div className="header-image-container">
+        {/* <div className="header-image-container">
           <img className="header-image" src={testimage} alt="iphone" />
-        </div>
-        <div className="v-shape-left">
+        </div> */}
+        {/* <div className="v-shape-left">
           <div className="v-shape-1"></div>
           <div className="v-shape-2"></div>
         </div>
         <div className="v-shape-right">
           <div className="v-shape-1"></div>
           <div className="v-shape-2"></div>
-        </div>
+        </div> */}
       </div>
     </header>
   )
